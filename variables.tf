@@ -36,7 +36,7 @@ variable "ct_home_region" {
 }
 
 variable "tf_backend_secondary_region" {
-  default     = "us-west-2"
+  default     = ""
   type        = string
   description = "TF Backup Secondary Region"
 }
