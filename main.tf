@@ -5,6 +5,7 @@ module "aft" {
   audit_account_id            = var.audit_account_id
   aft_management_account_id   = var.aft_management_account_id
   ct_home_region              = var.ct_home_region
+  tf_backend_secondary_region = var.tf_backend_secondary_region
   terraform_org_name          = var.terraform_org_name
   terraform_token             = var.terraform_token
   terraform_distribution      = var.terraform_distribution
