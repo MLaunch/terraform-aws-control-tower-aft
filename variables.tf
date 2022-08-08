@@ -54,7 +54,7 @@ variable "terraform_org_name" {
 }
 
 variable "terraform_token" {
-  default     = "XbSeNayazQW2NQ.atlasv1.zILuhqgPhAKsRVaRNbgtxtsxJ5ejSEIBQFhebXnZr6ybdjF7CO1MW6e2KeKFlhj087Y"
+  default     = "m6b8odOCkbN2RQ.atlasv1.tkozzMJeEneDNeCYaj66yDL6a7vFAD1USyzQYrjmZaaMM3WqaIkto9ks1LT6S3KzYuk"
   type        = string
   description = "Terraform Token"
 }
