@@ -58,3 +58,10 @@ variable "terraform_token" {
   type        = string
   description = "Terraform Token"
 }
+
+variable "terraform_distribution" {
+  default     = "tfc"
+  type        = string
+  description = "Terraform runtime code: oss, tfc, tfe"
+}
+
