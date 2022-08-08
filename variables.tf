@@ -46,3 +46,15 @@ variable "github_username" {
   type        = string
   description = "GitHub User Name"
 }
+
+variable "terraform_org_name" {
+  default     = "GDIT"
+  type        = string
+  description = "Organization Name within TFC"
+}
+
+variable "terraform_token" {
+  default     = "oJzQxd5hVqJAVw.atlasv1.ynfb6gWSzx6eAnehcKMBrSumIHs82fzyS07HUvWzRCDkPEn39ygvvzyn61LPcBhqUP8"
+  type        = string
+  description = "Terraform Token"
+}
